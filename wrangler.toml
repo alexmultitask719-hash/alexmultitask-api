@@ -1,0 +1,21 @@
+name equals "alexmultitask-api"
+main equals "worker.js"
+compatibility_date equals "2025-01-01"
+
+Then a blank line, then the line double square brackets d1_databases, then:
+binding equals "DB"
+database_name equals "alexmultitask-db"
+database_id equals "f374c814-f52a-4f5c-a00e-e1afa61e82e3"
+
+Since the speech can't show the exact symbols, here is the file as text for you to copy:
+
+```toml
+name = "alexmultitask-api"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "alexmultitask-db"
+database_id = "f374c814-f52a-4f5c-a00e-e1afa61e82e3"
+```
